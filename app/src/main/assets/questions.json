@@ -1,0 +1,56 @@
+{
+  "questions":[
+                  {
+                    "question": "1. Were you made to feel welcomed upon arrival?",
+                    "answers": [
+                      "Strongly Agree",
+                      "Agree",
+                      "Somewhat Agree",
+                      "Disagree",
+                      "Strongly Disagree"
+                    ]
+                  },
+                  {
+                    "question": "2. Did the shop listen to your needs?",
+                    "answers": [
+                      "Strongly Agree","Agree", "Somewhat Agree", "Disagree", "Strongly Disagree"
+                    ]
+                  },
+                  {
+                    "question": "3. Did you feel the advice given was trustworthy?",
+                    "answers": [
+                      "Strongly Agree","Agree", "Somewhat Agree", "Disagree", "Strongly Disagree"
+                    ]
+                  },
+                  {
+                    "question": "4. Was the shop respectful towards your time?",
+                    "answers": [
+                      "Strongly Agree","Agree", "Somewhat Agree", "Disagree", "Strongly Disagree"
+                    ]
+                  },
+                  {
+                    "question": "5. Was the invoice explained to you in full?",
+                    "answers": [
+                      "Strongly Agree","Agree", "Somewhat Agree", "Disagree", "Strongly Disagree"
+                    ]
+                  },
+                  {
+                    "question": "6. Was the repair or service done correctly the first time?",
+                    "answers": [
+                      "Yes","No"
+                    ]
+                  },
+                  {
+                    "question": "7. Are you satisfied with the repair or service?",
+                    "answers": [
+                      "Yes","No"
+                    ]
+                  },
+                  {
+                    "question": "8. Would you recommend the shop to friends or family?",
+                    "answers": [
+                      "Yes","No"
+                    ]
+                  }
+              ]
+}

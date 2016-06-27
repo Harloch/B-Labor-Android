@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "373162722726",
+    "project_id": "barelabor-1307"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373162722726:android:8e057480e4732bd5",
+        "android_client_info": {
+          "package_name": "com.barelabor.barelabor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLgp1tvRqoKfm9ODS7MT_COVHH41CMHa8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

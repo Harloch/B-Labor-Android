@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">BareLabor</string>
+
+    <string name="google_api_key">AIzaSyB8mNzXydrgSjqwnXEq5VhhTKAca3c9WXU</string>
+    <string name="google_api_key1">AIzaSyC7Pa0iW8tGGD51emd7ZpyQIVd_KDizS_k</string>
+
+    <string name="auth_login">Log In</string>
+    <string name="auth_signup">Sign Up</string>
+
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_no">NO</string>
+    <string name="dialog_info">Info</string>
+    <string name="dialog_error">Error</string>
+    <string name="dialog_warning">Warning</string>
+    <string name="dialog_load">Loading data</string>
+    <string name="dialog_send">Sending data</string>
+    <string name="dialog_wait">Please wait...</string>
+
+    <string name="error_no_network">The internet connection appears to be offline</string>
+    <string name="error_no_webpage">"Web page couldn't be loaded"</string>
+    <string name="error_server">Communication with the server failed</string>
+
+    <string name="warn_empty_username">Please fill username</string>
+    <string name="warn_empty_email">Please fill email</string>
+    <string name="warn_empty_password">Please fill password</string>
+    <string name="warn_incorrect_password">Passwords not equals</string>
+
+    <string name="error_incorrect_match">Username and Password does not match</string>
+    <string name="error_already_exist">User with current name existed</string>
+
+    <string name="hint_username">User Name</string>
+    <string name="hint_create_user">Create User Name</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Verify Password</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_name_of_shop">Name of Shop</string>
+    <string name="hint_comments">Comments</string>
+
+    <string name="button_submit">Submit</string>
+
+    <string name="button_scan">SCAN MY ESTIMATE</string>
+    <string name="button_need_tire">I NEED A TIRE</string>
+    <string name="button_find">FIND NEAREST LOCATION</string>
+    <string name="button_tell_experience">TELL US YOUR EXPERIENCE</string>
+    <string name="button_history">VIEW HISTORY</string>
+
+    <string name="button_by_vehicle">By Vehicle</string>
+    <string name="button_by_size">By Size</string>
+
+    <string name="spinner_hint_year">Year</string>
+    <string name="spinner_hint_make">Make</string>
+    <string name="spinner_hint_model">Model</string>
+    <string name="spinner_hint_feature">Features</string>
+    <string name="spinner_hint_quantity">QTY</string>
+
+    <string name="string_level_master">Master</string>
+    <string name="string_level_advanced">Advanced</string>
+    <string name="string_level_intermediate">Intermediate</string>
+    <string name="string_level_beginner">Biginner</string>
+
+    <string name="button_edit">EDIT</string>
+    <string name="button_save_car">SAVE MY CAR</string>
+    <string name="button_not_my_car">NOT MY CAR</string>
+
+    <string name="string_what_price">What\'s the Price?</string>
+
+    <string name="button_positive">POSITIVE</string>
+    <string name="button_negative">NEGATIVE</string>
+
+    <string name="button_retake">RETAKE</string>
+    <string name="button_done">DONE</string>
+
+    <string name="gcm_send_message">Token retrieved and sent to server! You can now use gcmsender to
+        send downstream messages to this app.</string>
+    <string name="registering_message">Generating InstanceID token...</string>
+    <string name="token_error_message">An error occurred while either fetching the InstanceID token,
+        sending the fetched token to the server or subscribing to the PubSub topic. Please try
+        running the sample again.</string>
+</resources>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".activity.experience.ExperienceDetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lltQuestions"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:layout_marginTop="50dp">
+
+                <EditText
+                    android:id="@+id/txtName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:hint="@string/hint_name"
+                    android:textColorHint="@android:color/white"
+                    android:textColor="@android:color/white"
+                    android:textCursorDrawable ="@null"
+                    >
+                </EditText>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/white"
+                    android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/txtEmail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:hint="@string/hint_email"
+                    android:textColorHint="@android:color/white"
+                    android:textColor="@android:color/white"
+                    android:textCursorDrawable ="@null"
+                    >
+                </EditText>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/white"
+                    android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/txtShopName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:hint="@string/hint_name_of_shop"
+                    android:textColorHint="@android:color/white"
+                    android:textColor="@android:color/white"
+                    android:textCursorDrawable ="@null"
+                    >
+                </EditText>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/white"
+                    android:layout_alignParentBottom="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/txtComments"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:hint="@string/hint_comments"
+                    android:textColorHint="@android:color/white"
+                    android:textColor="@android:color/white"
+                    android:textCursorDrawable ="@null"
+                    >
+                </EditText>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/white"
+                    android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/custom_rounded_button_green"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/button_submit"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.scan.ScanActivity">
+
+    <RelativeLayout
+        android:layout_width="133dp"
+        android:layout_height="210dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/bg_custom_bar"
+        android:layout_centerVertical="true"
+        >
+
+        <!--<ImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:src="@drawable/bg_custom_bar"-->
+            <!--android:scaleType="fitStart"-->
+            <!--/>-->
+
+        <ImageButton
+            android:id="@+id/btnGallary"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/btn_photo"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/btnClose"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/btn_close"
+                android:background="@android:color/transparent"
+                android:layout_centerVertical="true"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/btnTakePhoto"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/btn_capture"
+                android:background="@android:color/transparent"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:scaleType="fitCenter"
+                />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>
